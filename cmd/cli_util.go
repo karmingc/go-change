@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/aaronfriel/go-change/internal/changelog"
 	"github.com/erikgeiser/promptkit/selection"
 	"github.com/erikgeiser/promptkit/textinput"
+	"github.com/karmingc/go-change/internal/changelog"
 	"github.com/muesli/termenv"
 )
 

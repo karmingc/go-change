@@ -1,8 +1,9 @@
-module github.com/aaronfriel/go-change
+module github.com/karmingc/go-change
 
 go 1.19
 
 require (
+	github.com/aaronfriel/go-change v0.1.5
 	github.com/erikgeiser/promptkit v0.8.0
 	github.com/goccy/go-yaml v1.11.0
 	github.com/google/go-github/v47 v47.1.0
@@ -56,5 +57,3 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	mvdan.cc/gofumpt v0.5.0 // indirect
 )
-
-replace github.com/aaronfriel/go-change => github.com/karmingc/go-change v0.1.4

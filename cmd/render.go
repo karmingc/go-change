@@ -24,9 +24,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aaronfriel/go-change/internal/changelog"
 	"github.com/goccy/go-yaml"
 	"github.com/google/go-github/v47/github"
+	"github.com/karmingc/go-change/internal/changelog"
 	"github.com/spf13/cobra"
 	"golang.org/x/oauth2"
 )
