@@ -57,3 +57,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	mvdan.cc/gofumpt v0.5.0 // indirect
 )
+
+replace github.com/aaronfriel/go-change => github.com/karmingc/go-change v0.1.5

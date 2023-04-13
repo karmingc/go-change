@@ -1,5 +1,3 @@
-github.com/aaronfriel/go-change v0.1.5 h1:8Kt80Y4gnPLpHMywsj/eR8xuuH3Hinl/Mn31EA0/JKs=
-github.com/aaronfriel/go-change v0.1.5/go.mod h1:SVCTTXD+VhcYIHrFNH7hJBwXA8lZnl/7T6u+Yb+P9yU=
 github.com/atotto/clipboard v0.1.4 h1:EH0zSVneZPSuFR11BlR9YppQTVDbh5+16AmcJi4g1z4=
 github.com/atotto/clipboard v0.1.4/go.mod h1:ZY9tmq7sm5xIbd9bOK4onWV4S6X0u6GY7Vn0Yu86PYI=
 github.com/aymanbagabas/go-osc52 v1.0.3/go.mod h1:zT8H+Rk4VSabYN90pWyugflM3ZhpTZNC7cASDfUCdT4=
@@ -62,6 +60,8 @@ github.com/hexops/valast v1.4.3 h1:oBoGERMJh6UZdRc6cduE1CTPK+VAdXA59Y1HFgu3sm0=
 github.com/hexops/valast v1.4.3/go.mod h1:Iqx2kLj3Jn47wuXpj3wX40xn6F93QNFBHuiKBerkTGA=
 github.com/inconshreveable/mousetrap v1.1.0 h1:wN+x4NVGpMsO7ErUn/mUI3vEoE6Jt13X2s0bqwp9tc8=
 github.com/inconshreveable/mousetrap v1.1.0/go.mod h1:vpF70FUmC8bwa3OWnCshd2FqLfsEA9PFc4w1p2J65bw=
+github.com/karmingc/go-change v0.1.5 h1:Lnr9k0cl1Oh9Qd4WtJ2Zc3CUMUndw/Und3nq+a3lMxQ=
+github.com/karmingc/go-change v0.1.5/go.mod h1:BZpJOvxFT83eO5iU0hMnlVC/9QhxKW7HkP8MhvrMp5A=
 github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=
 github.com/kr/pretty v0.3.0/go.mod h1:640gp4NfQd8pI5XOwp5fnNeVWj67G7CFk/SaSQn7NBk=
 github.com/kr/pretty v0.3.1 h1:flRD4NNwYAUpkphVc1HcthR4KEIFJ65n8Mw5qdRn3LE=
