@@ -1,8 +1,9 @@
-module github.com/aaronfriel/go-change
+module github.com/karmingc/go-change
 
 go 1.19
 
 require (
+	github.com/aaronfriel/go-change v0.0.0-00010101000000-000000000000
 	github.com/erikgeiser/promptkit v0.7.1-0.20220721185625-1f33bc73d091
 	github.com/goccy/go-yaml v1.9.5
 	github.com/google/go-github/v47 v47.0.0
@@ -29,7 +30,7 @@ require (
 	github.com/hexops/gotextdiff v1.0.3 // indirect
 	github.com/hexops/valast v1.4.0 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
-	github.com/kr/text v0.2.0 // indirect
+	github.com/kr/pretty v0.2.1 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/mattn/go-colorable v0.1.8 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
@@ -50,7 +51,8 @@ require (
 	golang.org/x/tools v0.1.0 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	mvdan.cc/gofumpt v0.1.0 // indirect
 )
+
+replace github.com/aaronfriel/go-change => github.com/karmingc/go-change v0.1.4
