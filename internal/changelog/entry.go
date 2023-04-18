@@ -1,6 +1,7 @@
 package changelog
 
 import (
+	"os"
 	"fmt"
 	"strings"
 )
@@ -41,6 +42,14 @@ type GitHubMeta struct {
 	PullRequestNumbers []int `yaml:"prs,omitempty"`
 }
 
+// getRepository gets the repository name from the GITHUB_REPOSITORY environment variable, otherwise defaults to pulumi/pulumi.
+func getRepository() string {
+	if envStr, ok := os.LookupEnv("GITHUB_REPOSITORY"); ok {
+		return envStr
+	}
+	return "pulumi/pulumi"
+}
+
 func (v *Entry) Conventional() string {
 	var message string
 
@@ -49,7 +58,7 @@ func (v *Entry) Conventional() string {
 
 	var prs []string
 	for _, prNumber := range v.GitHubMeta.PullRequestNumbers {
-		prs = append(prs, fmt.Sprintf("[#%v](https://github.com/pulumi/pulumi/pull/%v)", prNumber, prNumber))
+		prs = append(prs, fmt.Sprintf("[#%v](https://github.com/%s/pull/%v)", prNumber, getRepository(), prNumber))
 	}
 
 	if len(prs) > 0 {
