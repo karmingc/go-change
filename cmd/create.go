@@ -105,6 +105,11 @@ func newCreateCmd() *cobra.Command {
 				}
 			}
 
+			owner, repo, err := config.GetGitHubRepository()
+			if err != nil {
+				return err
+			}
+
 			change := changelog.Entry{
 				Type: typ,
 				Scope: changelog.Scope{
@@ -114,6 +119,7 @@ func newCreateCmd() *cobra.Command {
 				Description: desc,
 				GitHubMeta: changelog.GitHubMeta{
 					PullRequestNumbers: prs,
+					Repository:         owner + "/" + repo,
 				},
 			}
 			cl := changelog.Changelog{

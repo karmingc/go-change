@@ -30,7 +30,7 @@ var markdownTemplateText = `
 - {{ template "scope" $change.Scope }}{{ $change.Description }}
 {{- if $change.GitHubMeta.PullRequestNumbers }}
 {{- range $pr := $change.GitHubMeta.PullRequestNumbers }}
-  [#{{ $pr }}](https://github.com/pulumi/pulumi/pull/{{ $pr }})
+  [#{{ $pr }}](https://github.com/{{ $change.GitHubMeta.Repository }}/pull/{{ $pr }})
 {{- end }}
 {{- end }}
 {{ end }}

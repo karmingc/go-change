@@ -21,6 +21,7 @@ func TestMarkdown(t *testing.T) {
 		Description: "Foo bar baz",
 		GitHubMeta: GitHubMeta{
 			PullRequestNumbers: []int{9001},
+			Repository:         "pulumi/pulumi",
 		},
 	}, {
 		Type: "improvement",
@@ -31,6 +32,7 @@ func TestMarkdown(t *testing.T) {
 		Description: "Make SDK go brrrr",
 		GitHubMeta: GitHubMeta{
 			PullRequestNumbers: []int{10000},
+			Repository:         "pulumi/pulumi",
 		},
 	}, {
 		Type: "fix",
@@ -41,6 +43,7 @@ func TestMarkdown(t *testing.T) {
 		Description: "Fix Typescript SDK code generation.",
 		GitHubMeta: GitHubMeta{
 			PullRequestNumbers: []int{20000},
+			Repository:         "pulumi/pulumi",
 		},
 	}, {
 		Type: "fix",
@@ -51,6 +54,7 @@ func TestMarkdown(t *testing.T) {
 		Description: "Fix Go SDK code generation",
 		GitHubMeta: GitHubMeta{
 			PullRequestNumbers: []int{20001},
+			Repository:         "pulumi/pulumi",
 		},
 	}}
 

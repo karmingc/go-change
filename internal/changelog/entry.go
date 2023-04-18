@@ -38,7 +38,8 @@ type Entry struct {
 
 type GitHubMeta struct {
 	// PullRequestNumbers are the GitHub Pull Requests used to implementing this change, typically a single PR.
-	PullRequestNumbers []int `yaml:"prs,omitempty"`
+	PullRequestNumbers []int  `yaml:"prs,omitempty"`
+	Repository         string `yaml:"repository,omitempty"`
 }
 
 func (v *Entry) Conventional() string {

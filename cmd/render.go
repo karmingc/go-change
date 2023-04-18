@@ -176,6 +176,7 @@ func extractChangelog(config *changelog.Config, dir string, filterSinceCommit st
 				for num := range pullRequests {
 					prs = append(prs, num)
 				}
+				c.GitHubMeta.Repository = owner + "/" + repo
 				c.GitHubMeta.PullRequestNumbers = prs
 			}
 
